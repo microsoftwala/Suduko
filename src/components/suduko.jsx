@@ -107,7 +107,7 @@ const Sudoku = () => {
     setIsshow(false);
     setGrid([]);
     if (e === undefined || e === "Easy") {
-      const puzzleGrid = removeElements(solvedGrid, 30);
+      const puzzleGrid = removeElements(solvedGrid, 1);
       setGrid(puzzleGrid);
     } else if (e === "Medium") {
       const puzzleGrid = removeElements(solvedGrid, 40);
