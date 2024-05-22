@@ -10,7 +10,7 @@ const Sorting = () => {
 
   useEffect(() => {
     const array = [];
-    for (let i = 0; i < 150; i++) {
+    for (let i = 0; i < 95; i++) {
       array.push(randomNumber(5, 600));
     }
     setArr(array);
